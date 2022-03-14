@@ -69,7 +69,7 @@ services:
       PUBLIC_URL: ${PUBLIC_URL}
 
 networks:
-  directus_genio:
+  backend-genio_directus_genio:
     external: false
   traefik-public:
     external: true
