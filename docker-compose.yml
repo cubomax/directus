@@ -58,7 +58,7 @@ services:
       DB_USER: 'directus'
       DB_PASSWORD: ${DATABASE_PASSWORD}
 
-      CACHE_ENABLED: 'false'
+      CACHE_ENABLED: 'true'
       CACHE_STORE: 'redis'
       CACHE_REDIS: 'redis://cache:6379'
 
