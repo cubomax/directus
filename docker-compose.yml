@@ -26,8 +26,6 @@ services:
 
   directus:
     image: directus/directus:9
-    ports:
-      - 8055:8055
     volumes:
       - directus_extensions:/directus/extensions
     networks:
@@ -59,7 +57,7 @@ services:
       DB_USER: 'directus'
       DB_PASSWORD: ${DATABASE_PASSWORD}
 
-      CACHE_ENABLED: 'true'
+      CACHE_ENABLED: 'false'
       CACHE_STORE: 'redis'
       CACHE_REDIS: 'redis://cache:6379'
 
