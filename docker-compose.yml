@@ -26,8 +26,6 @@ services:
 
   directus:
     image: directus/directus:9
-    ports:
-      - 8055:8055
     volumes:
       - directus_extensions:/directus/extensions
     networks:
