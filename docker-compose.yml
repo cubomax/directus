@@ -30,6 +30,7 @@ services:
       - directus_extensions:/directus/extensions
     networks:
       - directus
+      - traefik-public
     deploy:
       labels:
         - "traefik.docker.network=traefik-public"
