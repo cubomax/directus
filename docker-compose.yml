@@ -68,7 +68,7 @@ services:
 
 networks:
   directus:
-    external: false
+    external: true
   traefik-public:
     external: true
 
