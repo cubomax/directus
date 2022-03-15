@@ -76,8 +76,6 @@ services:
       STORAGE_S3_ENDPOINT: ${STORAGE_S3_ENDPOINT}
       STORAGE_S3_S3_FORCE_PATH_STYLE: ${S3_FORCE_PATH_STYLE}
 
-      NODE_TLS_REJECT_UNAUTHORIZED: 0
-
 networks:
   directus:
     external: false
